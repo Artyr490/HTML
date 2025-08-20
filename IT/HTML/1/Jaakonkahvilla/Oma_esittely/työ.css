@@ -1,0 +1,52 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+main {
+  display: flex;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+aside {
+  order: 2;
+}
+
+header {
+  background: linear-gradient(to right, #9796f0, #fbc7d4);
+  padding: 30px;
+  text-align: center;
+}
+nav{
+  width: 700px;
+  margin: 0 auto;
+}
+nav ul{
+  list-style-type: none;
+}
+nav ul a{
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin: 0 40px;
+}
+.koirat {
+  width: 100%;
+}
+section {
+  width: 70%;
+  order: 1;
+  padding: 20px;
+}
+
+aside {
+  background-color: aquamarine;
+  width: 30%;
+  padding: 20px;
+}
+
+footer {
+  background-color: bisque;
+  padding: 20px;
+  text-align: center;
+}
